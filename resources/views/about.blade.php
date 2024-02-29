@@ -8,7 +8,9 @@
 </head>
 <body>
     
-    <h1>Hello World, About Laravel</h1>
+    <h2>Nama : {{ $nama }} </h2>
+    <h2>Email : {{ $email }}</h2>
+    <h2>No Telp : {{ $notelp }}</h2>
 
 </body>
 </html>

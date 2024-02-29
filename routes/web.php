@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        "nama"  => "Usman",
+        "email" => "usmanjr100@gmail.com",
+        "notelp"  => "Kosong"
+    ]);
 });
