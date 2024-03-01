@@ -1,5 +1,6 @@
 @extends('layout.main')
 
 @section('container')
-    <h1>Hello, world!</h1>
+    <h1>Ini Halaman blog</h1>
 @endsection
+
